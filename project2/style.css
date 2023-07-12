@@ -134,7 +134,7 @@
 
 .end{display: flex;
         justify-content: space-evenly;
-        background-color: rgb(1, 1, 15);
+        background-color:black;
         color: white;
         padding: 40px 0px;}
 
@@ -145,7 +145,7 @@
 .apps img{border-radius: 10px;
          height: 60px;width:130px ;}
 
-.copyrights{background-color: rgb(1, 1, 15);
+.copyrights{background-color:black;
                 color: white;
                 text-align: center;
                 padding: 30px 0px;}         
