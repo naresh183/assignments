@@ -1,0 +1,33 @@
+body{display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{width: 500px;
+    /* border: 1px solid; */
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:rgb(224, 245, 224)}
+
+label{display: inline-block;
+    width: 130px;
+    font-size:18px ;}
+
+input{width: 310px;
+    padding: 7px;
+    font-size: 14px;}
+
+h1{text-align: center;}
+
+button{width: 200px;
+    padding: 10px;
+    background-color: rgb(160, 204, 245);
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;} 
+    
+#result{width: 440px;
+margin-bottom: 30px;
+}    
