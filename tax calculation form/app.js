@@ -9,7 +9,7 @@ function taxcalculator(name2,salary2){
         document.getElementById("result").value=`${name2} you are Tax-free`
     }
     else if(salary2<=600000){
-        deduction1=30000;
+        deduction1=0;
         deduction2=(salary2-300000)*0.1;
         totaldeduction=deduction1+deduction2;
 
@@ -20,7 +20,7 @@ function taxcalculator(name2,salary2){
 
     }
     else if(salary2 > 600000){
-        deduction1=60000;
+        deduction1=30000;
         deduction2=(salary2-600000)*0.2;
         totaldeduction=deduction1+deduction2;
 
